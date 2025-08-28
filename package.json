@@ -1,0 +1,32 @@
+{
+  "name": "pokemonapiwithcache",
+  "version": "1.0.0",
+  "description": "using public pokemon api  to fetch characters and caching them on redis server using nodejs expressjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramansoftdev/pokemonapiwithcache.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ramansoftdev/pokemonapiwithcache/issues"
+  },
+  "homepage": "https://github.com/ramansoftdev/pokemonapiwithcache#readme",
+  "dependencies": {
+    "axios": "^1.11.0",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "http-status-codes": "^2.3.0",
+    "morgan": "^1.10.1",
+    "redis": "^5.8.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
